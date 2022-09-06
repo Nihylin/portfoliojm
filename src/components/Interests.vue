@@ -1,10 +1,12 @@
 <template>
+  <section class="interests">
     <h2>Centres d'intérêt</h2>
     <div v-if="interests">
         <div v-for="i in interests" :key="i.id">
             <p>{{i}}</p>
         </div>
     </div>
+  </section>
 </template>
 
 <script>

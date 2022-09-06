@@ -1,5 +1,6 @@
 <template>
-    <p>bonjour</p>
+  <section class="profile">
+    <h2>Portfolio</h2>
     <div v-if="profile">
         <p>{{profile.firstname}}</p>
         <p>{{profile.lastname}}</p>
@@ -8,6 +9,7 @@
         <p>{{profile.address.number}} {{profile.address.street}},</p>
         <p>{{profile.address.zipcode}} {{profile.address.city}}</p>
     </div>
+  </section>
 </template>
 
 <script>

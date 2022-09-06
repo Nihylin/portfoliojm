@@ -1,4 +1,5 @@
 <template>
+  <section class="skills">
     <h2>Compétences</h2>
     <div v-if="skills">
         <div v-for="s in skills" :key="s.id">
@@ -6,6 +7,7 @@
             <p>Niveau {{s.level}}</p>
         </div>
     </div>
+  </section>
 </template>
 
 <script>
