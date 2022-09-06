@@ -1,10 +1,12 @@
 <template>
+  <section class="experience">
     <h2>Experience</h2>
     <div v-if="exp">
         <div v-for="e in exp" :key="e.id">
             <Exp :e="e"/>
         </div>
     </div>
+  </section>
 </template>
 
 <script>
@@ -29,7 +31,7 @@
     mounted() {
         this.getExp();
     },
-    components: { Exp } 
+    components: { Exp }
 }
 </script>
 

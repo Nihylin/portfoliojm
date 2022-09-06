@@ -1,4 +1,5 @@
 <template>
+  <section class="contact">
     <h2>Contact</h2>
     <p>Vers : JeanMichelDeLaMuerte@gmail.fr</p>
     <form @submit.prevent="handleSubmit()">
@@ -16,6 +17,7 @@
         <small v-show="contentError" class="error">'faut remplir le champ de texte, monsieur/dame</small>
         <button :disabled="formError">Envoyer</button>
     </form>
+  </section>
 </template>
 
 <script>
