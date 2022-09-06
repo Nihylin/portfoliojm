@@ -1,10 +1,12 @@
 <template>
+  <section class="school">
     <h2>Formations</h2>
     <div v-if="school">
         <div v-for="s in school" :key="s.id">
             <Sch :s="s"/>
         </div>
     </div>
+  </section>
 </template>
 
 <script>
