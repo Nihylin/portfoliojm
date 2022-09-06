@@ -4,6 +4,7 @@
   <Experience/>
   <School/>
   <Interests/>
+  <Contact/>
 </template>
 
 <script>
@@ -12,6 +13,7 @@ import Interests from './components/Interests.vue';
 import Skills from './components/Skills.vue';
 import Experience from './components/Experience.vue';
 import School from './components/School.vue';
+import Contact from './components/Contact.vue';
 
 export default {
   name: 'App',
@@ -20,8 +22,9 @@ export default {
     Interests,
     Skills,
     Experience,
-    School
-  }
+    School,
+    Contact
+}
 }
 </script>
 
